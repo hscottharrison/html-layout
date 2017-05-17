@@ -27,11 +27,13 @@ body{
   width: 60%;
   display: -webkit-inline-box;
   height: 1000px;
+  margin: auto;
+  position: relative;
 }
 .center #bottom{
   height: 150px;
   width: 100%;
   background-color: black;
-  position: relative;
-  margin-top: 850px;
+  position: absolute;
+  bottom: 0;
 }
